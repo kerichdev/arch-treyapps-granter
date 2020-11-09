@@ -15,7 +15,7 @@ adb wait-for-device
 clear
 echo "Checking deive permissions..."
 adb devices
-echo "If you see 'no permissions', please make sure you enabled usb debugging, in your device dev settings, set the usb mode to 'File Transfer', and granted the device dubug in a promt on your phone, then run the script again. If not, press enter."
+echo "If you see 'no permissions', please make sure you enabled usb debugging in your device developer settings, set the usb mode to 'File Transfer', and allowed the debugging in a prompt on your phone, then run the script again. If not, press enter."
 read
 echo "Proceeding..."
 echo "Detecting and granting the shades..."
