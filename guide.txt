@@ -1,0 +1,3 @@
+Make sure you did all the steps in this file to fix "Device not connected properly" error.
+
+-- steps here but later
