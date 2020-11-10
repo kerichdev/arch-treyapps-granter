@@ -20,7 +20,7 @@ echo "If you see 'no permissions', please make sure you enabled usb debugging in
 read
 echo "Proceeding..."
 echo "Checking Device..."
-if echo $var1 | grep -q -i "OPPO"; then
+if echo $oppocheck | grep -q -i "OPPO"; then
     echo "OPPO device found, please make sure you have disabled  permission monitor in developer settings, then press enter."
 fi
 echo "Detecting and granting the shades..."
