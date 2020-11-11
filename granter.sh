@@ -1,9 +1,5 @@
 adpackage=android-tools
-#adbdevc=$(adb devices)
-#oppodev=Oppo
-#emuidev=Huawei
 awkcheck=$(adb devices | awk 'NR==2 {print $2}')
-#devmodel=$(adb shell getprop ro.product.manufacturer)
 
 if ! [ $(id -u) = 0 ]; then
    echo "Please run this script as root (same command you did but with sudo at beginning)"
