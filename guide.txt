@@ -1,7 +1,0 @@
-Make sure you did all the steps in this file to fix "Device not connected properly" error.
-
--- Make sure you enabled USB debugging in Android Developer settings and allowed your PC to debug (through phone request)
--- Make sure USB mode is set to File Transfer
--- Reconnect your phone
--- Make sure your screen is on so you see the debug request if you haven't gotten any
--- If none of this helped, ask in the telegram support group, tagging @kerichuu
