@@ -5,8 +5,8 @@ Simple shell script for Arch-based Linux distros to grant necessary permissions 
 ## Usage
 
 ```
-cd /path/to/script.sh
-sudo sh (granter_script_name).sh
+cd /path/to/script
+sudo sh granter.sh
 ```
 Then follow the steps provided.
 
